@@ -16,12 +16,12 @@ const App = () => {
   <Hero/>
   </section>
 
-  <section className='mb-40' >
+  <section className='mb-10' >
   <Recommend/>
   </section>
 
     <br/>
-  <section className='mt-20'>
+  <section >
   <Upcoming/>
   </section>
   
