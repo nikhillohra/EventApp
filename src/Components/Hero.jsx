@@ -5,7 +5,7 @@ import { FaAngleRight } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <div className="inter1 bg-white shadow-md pb-2 px-1 sm:px-4 overflow-x-hidden">
+      <div className="inter1 bg-white shadow-md pb-2 px-1 sm:px-4 ">
         <div className="flex flex-wrap items-center ">
           <div className="flex items-center space-x-2 w-full lg:w-auto mt-[-10px] mb-4 md:mt-0 md:mb-0">
             <div className="flex">
