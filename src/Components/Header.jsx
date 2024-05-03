@@ -2,6 +2,7 @@ import React from "react";
 import searchIcon from "../assets/icons/search.png";
 import heartIcon from "../assets/icons/heart.png";
 import personIcon from "../assets/icons/person.png";
+import { FiAlignJustify } from "react-icons/fi";
 
 const Header = () => {
   return (
@@ -15,9 +16,7 @@ const Header = () => {
       <div className=" flex gap-2 items-center justify-center space-x-4 ">
         <div className=" md:flex hidden flex-none ">
           <button className="flex items-center justify-center bg-black text-white p-1.5 px-2 rounded text-[15px]">
-            <img
-              src="src/assets/icons/ham.png"
-              alt="icon"
+          <FiAlignJustify color="white"
               className="mr-2 w-5 h-5 flex"
             />
             Categories

@@ -1,4 +1,5 @@
 import React from "react";
+import { TiLocation } from "react-icons/ti";
 
 const Hero = () => {
   return (
@@ -7,9 +8,7 @@ const Hero = () => {
         <div className="flex flex-wrap items-center ">
           <div className="flex items-center space-x-2 w-full lg:w-auto mt-[-10px] mb-4 md:mt-0 md:mb-0">
             <div className="flex">
-              <img
-                src="src/assets/icons/location.png"
-                alt="location"
+            <TiLocation color="#4A5568"
                 className="w-4 h-4 mr-1 mt-1"
               />
               <p className=" text-[#1E2022] font-[400]  whitespace-nowrap">
