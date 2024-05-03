@@ -16,18 +16,18 @@ const App = () => {
   <Hero/>
   </section>
 
-  <section className='mb-10' >
+  <section className='mb-20' >
   <Recommend/>
   </section>
 
     <br/>
-  <section >
+  <section className='mt-[10rem]' >
   <Upcoming/>
   </section>
   
 
 
-  <section className='mt-20'>
+  <section className='mt-30'>
   <Footer/>
   </section>
 

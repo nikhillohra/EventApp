@@ -5,7 +5,7 @@ import banner from '../assets/icons/Banner.svg'
 const Recommend = () => {
   return (
     <>
-      <div className="relative p-0.5 inter1 w-full md:p-4 justify-center items-center overflow-x-hidden ">
+      <div className="relative p-0.5 inter1 w-full md:p-4 justify-center items-center  ">
         <div>
           <img
             src={banner}
