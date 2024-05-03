@@ -1,5 +1,6 @@
 import React from "react";
 import FetchData from "./FetchData";
+import banner from '../assets/icons/Banner.svg'
 
 const Recommend = () => {
   return (
@@ -7,7 +8,7 @@ const Recommend = () => {
       <div className="relative p-0.5 inter1 w-full md:p-4 justify-center items-center overflow-x-hidden ">
         <div>
           <img
-            src="src/assets/icons/Banner.svg"
+            src={banner}
             alt=""
             className="object-cover h-[38rem] md:w-full "
           />
