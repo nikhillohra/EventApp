@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
+import { TiLocation } from "react-icons/ti";
 
 const Footer = () => {
   return (
@@ -8,12 +9,10 @@ const Footer = () => {
         <div className="text-[#CF2D2D] font-semibold text-2xl ml-4 mt-4 ">
           BookUsNow
         </div>
-        <div className="flex ml-4">
-          <img
-            src="src/assets/icons/location.png"
-            alt="location"
-            className="w-4 h-4 mr-1 mt-1"
-          />
+        <div className="flex ml-4 items-center ">
+        <TiLocation color="#66635c"
+                className="w-5 h-5 mr-1 mt-1 mb-1.5"
+              />
           <p className=" text-[#9a9c9e] font-[400]  whitespace-nowrap">
             Mumbai, India
           </p>
