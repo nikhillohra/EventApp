@@ -1,5 +1,6 @@
 import React from "react";
 import { TiLocation } from "react-icons/ti";
+import { FaAngleRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -9,15 +10,13 @@ const Hero = () => {
           <div className="flex items-center space-x-2 w-full lg:w-auto mt-[-10px] mb-4 md:mt-0 md:mb-0">
             <div className="flex">
             <TiLocation color="#4A5568"
-                className="w-4 h-4 mr-1 mt-1"
+                className="w-4 h-4 mr-1 mt-[4px]"
               />
               <p className=" text-[#1E2022] font-[400]  whitespace-nowrap">
                 Mumbai, India
               </p>
-              <img
-                src="src/assets/icons/right.png"
-                alt=""
-                className="w-3 h-3 mt-1.5 ml-1"
+              <FaAngleRight color="#4A5568"
+                className="w-4 h-4 mt-[4px] ml-1"
               />
             </div>
           </div>
